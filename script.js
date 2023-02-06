@@ -15,10 +15,10 @@ sendMessageButton.addEventListener("click", function(event) {
   const message = messageInput.value;
 
   // Aqui você precisará adicionar seu token de acesso à API do Telegram
-  const accessToken = "SEU_TOKEN_AQUI";
+  const accessToken = "6113891816:AAGVkSsmiL6volEZGCChurtMhdy5sNoZVtU";
 
   // Enviar a mensagem para o seu bot do Telegram
-  fetch(`https://api.telegram.org/bot${accessToken}/sendMessage?chat_id=SEU_ID_DE_CHAT_AQUI&text=${message}`)
+  fetch(`https://api.telegram.org/bot${accessToken}/sendMessage?chat_id=5865369526&text=${message}`)
     .then(response => {
       console.log("Mensagem enviada com sucesso!");
     })
